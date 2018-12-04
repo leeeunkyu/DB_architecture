@@ -22,8 +22,8 @@
         <hr class="star-light mb-5">
 		<div class="control-group">
           <div class="form-group floating-label-form-group controls mb-0 pb-2">
-            <label>직원번호</label>
-            <input class="form-control" name="empId" id="empId" type="text" placeholder="직원명" required="required" data-validation-required-message="직원번호를 입력해 주세요">
+            <label>직원아이디</label>
+            <input class="form-control" name="empId" id="empId" type="text" placeholder="직원아이디" required="required" data-validation-required-message="직원아이디를 입력해 주세요">
             <p class="help-block text-danger"></p>
           </div>
         </div>

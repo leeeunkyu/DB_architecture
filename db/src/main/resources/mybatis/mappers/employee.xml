@@ -21,7 +21,7 @@
 	
 	<select id="signIn" parameterType="int" resultType="string">
 		<![CDATA[
-			select pass from t_emp where emp_id = #{empId}
+			select emp_pwd from t_emp where emp_id = #{empId}
 		]]>
 	</select>
 	
@@ -30,5 +30,4 @@
 			SELECT * FROM t_emp order by EMP_NUM limit #{index}, 10
 		]]>
 	</select>
-	
 </mapper>
